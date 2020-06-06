@@ -5,8 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
     <link rel="icon" href="image/logo.jpg" type="image/gif" sizes="16x16">
-    <meta name="keywords" content="Astrology, Palmistry, BSS Astrology, Astro Bishan, Vastu Shastra,Kundli, Horoscope, Kundli Matching">
+    <meta name="keywords"
+        content="Astrology, Palmistry, BSS Astrology, Astro Bishan, Vastu Shastra,Kundli, Horoscope, Kundli Matching">
     <meta name="description" content="Website for BSS Astrology Services">
     <meta name="author" content="Astro Bishan">
     <title>BSS Astrology Services</title>
@@ -218,17 +220,18 @@
             </div>
             <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
                 <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact us</h2>
-                <input
+                <input id="user_name"
                     class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4"
                     placeholder="Name" type="text">
-                <input
+                <input id="user_email"
                     class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4"
                     placeholder="Email" type="email">
-                <textarea
+                <textarea id="user_message"
                     class="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-orange-500 text-base px-4 py-2 mb-4 resize-none"
                     placeholder="Message"></textarea>
-                <button
-                    class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg">Send</button>
+                <button id="btn_send"
+                    class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
+                    onclick="senddetails()">Send</button>
                 <p class="text-xs text-gray-500 mt-3"></p>
             </div>
         </div>
