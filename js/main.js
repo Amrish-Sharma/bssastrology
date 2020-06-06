@@ -9,4 +9,13 @@ function senddetails() {
     name = document.getElementById("user_name").value;
     // This opens a window in end user's desktop or phone to refine the query 
     window.open('mailto:astrobishan@gmail.com?subject=Astrology Query&body=' + message + "%0A%0D%0A%20Sent%20By,%0D%0A" + name);
+
+    // to further change the appearance of div section to null
+    /*
+
+    to be tested
+    document.getElementById("user_name").innerHTML = " ";
+    document.getElementById("user_message").innerHTML = " ";
+    document.getElementById("user_email").innerHTML = " ";
+*/
 }
