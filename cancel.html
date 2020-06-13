@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="icon" href="image/logo.jpg" type="image/gif" sizes="16x16">
+    <meta name="google-site-verification" content="nocaMWrbAS9noBbI_54Od7lQuF1n-1tnrgka9S7_vKo" />
+    <meta name="keywords"
+        content="Astrology, Palmistry, BSS Astrology, Astro Bishan, Vastu Shastra,Kundli, Horoscope, Kundli Matching">
+    <meta name="description" content="Website for BSS Astrology Services">
+    <meta name="author" content="Astro Bishan">
+    <title>BSS Astrology Services</title>
+</head>
+
+<body>
+    <header class="text-gray-700 body-font">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+            <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
+                <img src="image/logo.jpg" width="64" height="64">
+                <span class="ml-3 text-xl">BSS Astrology Services</span>
+            </a>
+            <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
+                <a href="/" class="mr-5 hover:text-gray-900">Home</a>
+                <a href="#aboutus" class="mr-5 hover:text-gray-900">About</a>
+                <a href="#services" class="mr-5 hover:text-gray-900">Services</a>
+                <a href="#contactus" class="mr-5 hover:text-gray-900">Contact</a>
+            </nav>
+            <button onclick="location.href='https://wa.me/919810050118';"
+                class="inline-flex items-center bg-gray-200 border-0 py-1 px-3 focus:outline-none hover:bg-gray-300 rounded text-base mt-4 md:mt-0">Consult
+                Now
+                <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                    class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+                    <path d="M5 12h14M12 5l7 7-7 7"></path>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <!-- Adding the Hero Section-->
+    <hr>
+    <div class="text-gray-700 body-font relative">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
+        <h2 style="text-align: center;"><b>Transaction got cancelled by you</b></h2><br>
+            Please try again
+
+        </div>
+
+
+    </div>
+   
+    <hr>
+    <!--Start of Contact Us Block-->
+    <section id="contactus" class="text-gray-700 body-font relative">
+        <div class="container px-5 py-24 mx-auto flex sm:flex-no-wrap flex-wrap">
+            <div
+                class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
+                <iframe width="100%" height="100%" class="absolute inset-0" frameborder="0" title="map" marginheight="0"
+                    marginwidth="0" scrolling="no"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3505.281646508304!2d77.37012681474692!3d28.531252982457815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce61b861859b1%3A0xfe4891fa1b7e30b6!2sBSS%20Astrology%20Services!5e0!3m2!1sen!2sin!4v1591159416965!5m2!1sen!2sin&output=embed"
+                    style="filter: rgb(0) contrast(1.2) opacity(0.4);"></iframe>
+                <div class="bg-white relative flex flex-wrap py-6">
+                    <div class="lg:w-1/2 px-6">
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">ADDRESS</h2>
+                        <p class="leading-relaxed"><a href="https://g.page/BSSAstrology?share">145,Block C, Sector
+                                105</a></p>
+                        <p class="leading-relaxed">Noida, U.P, IN</p>
+                    </div>
+                    <div class="lg:w-1/2 px-6 mt-4 lg:mt-0">
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm">EMAIL</h2>
+                        <a href="mailto:astrobishan@gmail.com"
+                            class="text-orange-500 leading-relaxed">astrobishan@gmail.com</a>
+                        <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mt-4">PHONE</h2>
+                        <p class="leading-relaxed"><a href="tel:+91-9810050118">+91-98100-50118</a></p>
+                    </div>
+                </div>
+            </div>
+            <div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Contact us</h2>
+                <input id="user_name"
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4"
+                    placeholder="Name" type="text">
+                <input id="user_email"
+                    class="bg-white rounded border border-gray-400 focus:outline-none focus:border-orange-500 text-base px-4 py-2 mb-4"
+                    placeholder="Email" type="email">
+                <textarea id="user_message"
+                    class="bg-white rounded border border-gray-400 focus:outline-none h-32 focus:border-orange-500 text-base px-4 py-2 mb-4 resize-none"
+                    placeholder="Message"></textarea>
+                <button id="btn_send"
+                    class="text-white bg-orange-500 border-0 py-2 px-6 focus:outline-none hover:bg-orange-600 rounded text-lg"
+                    onclick="senddetails()">Send</button>
+                <p class="text-xs text-gray-500 mt-3"></p>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!--End of Contact Us Block-->
+    <footer class="text-gray-700 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+            <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+
+                <!--                <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path> -->
+                <path d=""></path>
+                <img src="image/logo.jpg" width="64" height="64">
+
+                <span class="ml-3 text-xl">BSS Astrology Services</span>
+            </a>
+            <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">©
+                2020
+                BSS Astrology Services —
+                Made with ❤️ by<a href="https://twitter.com/codenamebazinga" class="text-gray-600 ml-1"
+                    rel="noopener noreferrer" target="_blank">@codenamebazinga</a>
+            </p>
+            <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+                <a class="text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://facebook.com/bssastrology" target="_blank">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </a>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                        class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://twitter.com/bssastrology" target="_blank">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </a>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://instagram.com/bssastrologyservices" target="_blank">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </a>
+                    </svg>
+                </a>
+                <a class="ml-3 text-gray-500">
+                    <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                        <a href="https://www.linkedin.com/in/bssastrologyservices/" target="_blank">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </a>
+                    </svg>
+                </a>
+            </span>
+        </div>
+    </footer>
+</body>
+
+</html>

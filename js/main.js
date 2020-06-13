@@ -1,10 +1,8 @@
+//to select the book consultation button
+
+
 function senddetails() {
-    /* To debug use this feature
-         
-         console.log("user is: " + name);
-         console.log("user email is: " + email);
-         console.log("user message is: " + message)
-     */
+
     email = document.getElementById("user_email").value;
     message = document.getElementById("user_message").value;
     name = document.getElementById("user_name").value;
@@ -25,4 +23,50 @@ function senddetails() {
     }
 
 
+}
+
+function bookconsultation() {
+    const btn = document.querySelector('#book-btn');
+
+    const srvc = document.querySelectorAll('input[name="service"]');
+
+    let selectedvalue;
+
+    for (const srv of srvc) {
+        if (srv.checked) {
+            selectedvalue = srv.value;
+            break;
+        }
+    }
+    //console.log(selectedvalue);
+
+    if (selectedvalue == "kundli-analysis") {
+
+        console.log("You have selected kundli analysis");
+        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+    }
+
+    else if (selectedvalue == "kundli-matching") {
+        console.log("You have selected kundli matching");
+        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+
+    }
+    else if (selectedvalue == "palm-reading") {
+        console.log("You have selected palm reading");
+        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+
+    }
+
+    else if (selectedvalue == "vastu-consultation") {
+
+        console.log("You have selected vastu consultation");
+        window.open("https://www.payumoney.com/paybypayumoney/#/BD9D6CA8CE98E46246BFA8CCEBBB7191");
+
+    }
+
+    else {
+        console.log("Hello,Please select correct details");
+        alert("Please select the correct service again :)")
+
+    }
 }

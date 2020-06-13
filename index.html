@@ -83,6 +83,7 @@
                     clients has to face any hassle. The services that they can offer you include the following.</p>
             </div>
             <div class="flex flex-wrap">
+
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Kundli Analysis</h2>
                     <p class="leading-relaxed text-base mb-4">Horoscope(कुंडली) analysis is very effective tool to get
@@ -92,55 +93,61 @@
                         astrological aspects and sensitive angles at the time of a person’s birth. It can be used to
                         analyse lot many things for
                         the person like his/her character, career, health, family, finances</p>
-                    <a class="text-orange-500 inline-flex items-center">Learn More
+                    <a class="text-orange-500 inline-flex items-center">Select
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </a>
+                    <input type="radio" name="service" value="kundli-analysis" checked>
                 </div>
+
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Kundli Matching</h2>
                     <p class="leading-relaxed text-base mb-4">Kundali Match Making or Kundali Milan is a comparison
                         between two natal charts. Kundali milan is used in Vedic Astrology
                         to check the compatibility of two individuals in order to have an enchanted and successful
                         marriage.</p>
-                    <a class="text-orange-500 inline-flex items-center">Learn More
+                    <a class="text-orange-500 inline-flex items-center">Select
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </a>
+                    <input type="radio" name="service" value="kundli-matching">
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
                     <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Palm Reading</h2>
                     <p class="leading-relaxed text-base mb-4">Lines are not written into the human hand without reason.”
                         It couldn’t be truer. The lines have great significance in
                         astrology and astrology enthusiasts will find this science to be highly fascinating</p>
-                    <a class="text-orange-500 inline-flex items-center">Learn More
+                    <a class="text-orange-500 inline-flex items-center">Select
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </a>
+                    <input type="radio" name="service" value="palm-reading">
                 </div>
                 <div class="xl:w-1/4 lg:w-1/2 md:w-full px-8 py-6 border-l-2 border-gray-200">
-                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Vastu Consultation</h2>
+                    <h2 class="text-lg sm:text-xl text-gray-900 font-medium title-font mb-2">Vaastu Consultation</h2>
                     <p class="leading-relaxed text-base mb-4">Vastu Shastra unifies the science, art, astronomy and
                         astrology, it can
                         also be said as an ancient mystic science for designing and building. Vastu
                         Shastra helps us to make our lives better and will secure from things going
                         wrong.</p>
-                    <a class="text-orange-500 inline-flex items-center">Learn More
+                    <a class="text-orange-500 inline-flex items-center">Select
                         <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                             stroke-width="2" class="w-4 h-4 ml-2" viewBox="0 0 24 24">
                             <path d="M5 12h14M12 5l7 7-7 7"></path>
                         </svg>
                     </a>
+                    <input type="radio" name="service" value="vastu-consultation">
                 </div>
             </div>
-            <button onclick="location.href='https://wa.me/919810050118';"
-                class="flex mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg">Book
+            <button id="book-btn"
+                class="flex mx-auto mt-16 text-white bg-orange-500 border-0 py-2 px-8 focus:outline-none hover:bg-orange-600 rounded text-lg"
+                onclick="bookconsultation()">Book
                 Consultation</button>
         </div>
     </section>
