@@ -1,6 +1,21 @@
-//to select the book consultation button
+//to get the horoscope
+
+function gethoroscope()
+{
+
+    var x = document.createElement('script');
+    x.src = './data/horoscope.txt';
+
+    console.log(x.text);
+  
+
+}
 
 
+
+
+
+// to send the details via the contact button
 function senddetails() {
 
     email = document.getElementById("user_email").value;
@@ -24,7 +39,7 @@ function senddetails() {
 
 
 }
-
+//to select the book consultation button
 function bookconsultation() {
     const btn = document.querySelector('#book-btn');
 

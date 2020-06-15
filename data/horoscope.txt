@@ -1,0 +1,74 @@
+[
+ {
+  "sign": "aquarius",
+  "text": [
+   "Today is day of celebration in your family or you will attend social gathering. Monetary wise you will feel satisfied. Family members would be happy with you. You will win the heart of others by your speech. Today you will cancel the program of shopping and you will stay at home. You may feel problem in right eye. Students can do better in their studies. You can get money from different sources. Your spouse will help you in family matters. "
+  ]
+ },
+ {
+  "sign": "pisces",
+  "text": [
+   "Today is the day of expenditure or depression. You might get negative results on all fronts. So be patient and recite the mantra of Moon to get rid of from the problems. Mantra is - Om Shram Shreem Shraum Sah Chandramase Namah. Be cautious while going on journey. Lovers will be passionate and they will enjoy the company with each other.  "
+  ]
+ },
+ {
+  "sign": "aries",
+  "text": [
+   "This is very auspicious day to make investment. On a rainy day this investment will be very helpful in time of your need or crisis. Your speech will be melodious and opposite sex will be attracted towards your speech.  There are chances of unexpected guests coming at your home so welcome them and get their blessings. Do not over exert your self as this will not be good for your health."
+  ]
+ },
+ {
+  "sign": "taurus",
+  "text": [
+   "Today is the best day of the week. Definitely you shall get honour and respect in society. Businesspersons will get more order very easily from different resources. This is the time to invest in speculation. You will not rely upon your self. The day shall be average with some happiness and some confusion. So take all important decisions wisely and after thinking over that. "
+  ]
+ },
+ {
+  "sign": "gemini",
+  "text": [
+   "You might get involved in any religious work. The children's support towards you will fill your heart with joy and energy. Their study will be satisfactory. This shall prove to be a lucky day for love life. Your affection towards spouse shall increase. Health will be sound. For businessman this is the good time to start a new venture."
+  ]
+ },
+ {
+  "sign": "cancer",
+  "text": [
+   "Today you will feel slightly depressed. There will be hurdles in your work today. Be cautious while driving. Investment in speculation will be okay. Difference of views / opinions with spouse will result in argument. It won't be a good day for your love life. There may be pain in your left leg. Control your speech otherwise you will get into unnecessary problem. "
+  ]
+ },
+ {
+  "sign": "leo",
+  "text": [
+   "Unmarried persons shall get proposal for marriage. Unmarried young couples might get a chance to meet after a long time. Business man can get a new business partner or proposal. You shall get favorable results in legal matters. Your inclination towards your spouse will increase. You can get money or financial help from your in laws. Your children shall become more courageous. Students shall have to put lot of efforts for getting good result. Be cautious about your health.    "
+  ]
+ },
+ {
+  "sign": "virgo",
+  "text": [
+   "Students shall take interest in their studies. For lovers it shall prove to be a lucky day. Businessman can take major decision for their business, if you are in service then your day will be normal if you are planning to invest in speculation then this is the best time for you. You health will be sound and you will be more active."
+  ]
+ },
+ {
+  "sign": "libra",
+  "text": [
+   "Students shall take interest in their studies. For lovers it shall prove to be a lucky day. Businessman can take major decision for their business, if you are in service then your day will be normal if you are planning to invest in speculation then this is the best time for you. You health will be sound and you will be more active.  "
+  ]
+ },
+ {
+  "sign": "scorpio",
+  "text": [
+   "You will get the favour from your mother. If you are planning to purchase property this is a favourable day for you. On this day purchase of items like A.C., refrigerator, Washing machine, TV, Computer etc. for your home will be auspicious. You shall go out for watching a movie or for a picnic. Your expenditure shall increase. Your relation with your spouse will be cordial. Extension or interior decoration at your home is possible. Chances of going to a social gathering or a function are there."
+  ]
+ },
+ {
+  "sign": "sagittarius",
+  "text": [
+   "Today is the day of hard work and because of that you will be more tense and restless. The support from your younger brother or sister will make you confident. You may take a decision with your courage and would work hard for that. So be patient and continue your work. Money will come with your hard work only. Relation with spouse will be generally good. Children will do better and they can get the desired result."
+  ]
+ },
+ {
+  "sign": "capricorn",
+  "text": [
+   "Today is the day of hard work and because of that you will be more tense and restless. The support from your younger brother or sister will make you confident. You may take a decision with your courage and would work hard for that. So be patient and continue your work. Money will come with your hard work only. Relation with spouse will be generally good. Children will do better and they can get the desired result."
+  ]
+ }
+]
